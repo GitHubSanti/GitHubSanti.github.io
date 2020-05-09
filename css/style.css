@@ -6,7 +6,14 @@ body {
     margin: 0px;
     background-image: url("../images/y-so-serious-white.png");
     background-repeat: repeat;
+}
 
+form {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+input {
+    width: 100%;
 }
 
 #profile-pic {
