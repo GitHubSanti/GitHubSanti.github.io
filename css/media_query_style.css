@@ -1,0 +1,48 @@
+@media screen and (max-width: 980px) {
+
+    .content-section {
+        margin: auto;
+        width: 90%;
+        background-color: #ffffff;
+    }
+
+    .responsive-paragraph {
+        width: 60%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-section {
+        margin: auto;
+        width: 95%;
+        background-color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .content-section {
+        margin: auto;
+        min-width: 95%;
+        background-color: #ffffff;
+    }
+
+    .responsive-navbar {
+        min-width: 100%;
+        overflow: hidden;
+        
+    }
+    
+    .name-div {
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .links-div {
+        min-width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}

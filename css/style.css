@@ -1,8 +1,12 @@
 body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     padding: 0px;
     margin: 0px;
-    background-image: url("../images/webb.png");
+    background-image: url("../images/y-so-serious-white.png");
     background-repeat: repeat;
+
 }
 
 #profile-pic {
@@ -86,10 +90,8 @@ body {
 }
 
 .footer-div {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    height: 8%;
+    margin-top: 10px;
+    height: 50px;
     border-top: solid 7px #4aaaa5;
     background-color: #666666;
 }
