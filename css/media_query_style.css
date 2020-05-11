@@ -6,7 +6,7 @@
         background-color: #ffffff;
     }
 
-    .responsive-paragraph {
+    .responsive-paragraph, .responsive-contact {
         width: 60%;
         margin-left: 5%;
     }
