@@ -24,7 +24,8 @@ input {
     margin-top: 10px;
     margin-bottom: 10px;
 }
- textarea {
+
+textarea {
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -117,6 +118,39 @@ input {
 .link {
     text-decoration: none;
     color: #777777;
+}
+
+
+.portfolio-row {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.portfolio-column {
+    margin-top: 25px;
+    display: block;
+    position: relative;
+}
+
+.portfolio-img {
+}
+
+.portfolio-banner {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 70%;
+    background-color: #4aaaa5;
+}
+
+.portfolio-row:last-child {
+    margin-bottom: 25px;
+}
+
+.portfolio-column:nth-last-child(2) {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .footer-div {
